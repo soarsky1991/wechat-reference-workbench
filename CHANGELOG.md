@@ -1,3 +1,7 @@
+# 0.2.2-preview.1 — 2026-11-08
+
+Documentation/examples update: 20 additional official-repository benchmarks with source hashes and adoption boundaries; role-based README navigation; screenshot-led tour; complete synthetic acceptance fixture and offline walkthrough; contribution tasks and explicit roadmap. Runtime, capture sources and paid-provider behavior unchanged. Local new-demo browser access hit same-origin rejection; older verified synthetic screenshots are clearly labeled, not presented as newly captured results.
+
 # 0.2.1-preview.1 — 2026-11-08
 
 Documentation-only release: rewrite README around first-time users; add module/data-flow diagram, clone/download instructions, guided three-record demo, FAQ and progressive links. Preserve previous technical detail in docs/advanced-guide.md. Runtime, collection support, data, fees and API behavior are unchanged.

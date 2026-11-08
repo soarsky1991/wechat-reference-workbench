@@ -4,9 +4,20 @@
 
 适合需要积累选题、分析对标账号、比较工具或整理研究资料的个人创作者。你可以先用内置示例体验界面，再接入自己的公开来源。
 
-[立即体验](#先把界面跑起来) · [组件构成](#这个仓库由什么组成) · [采集到阅读](#如何把自己的文章放进来) · [完整操作手册](docs/advanced-guide.md) · [下载预览版](https://github.com/soarsky1991/wechat-reference-workbench/releases) · [反馈](https://github.com/soarsky1991/wechat-reference-workbench/issues/new/choose)
+[图文导览](docs/showcase.md) · [立即体验](#先把界面跑起来) · [组件构成](#这个仓库由什么组成) · [采集到阅读](#如何把自己的文章放进来) · [完整操作手册](docs/advanced-guide.md) · [下载预览版](https://github.com/soarsky1991/wechat-reference-workbench/releases) · [反馈](https://github.com/soarsky1991/wechat-reference-workbench/issues/new/choose)
 
 > 这是 **Python 命令行工具 + 本地网页阅读器**。不是浏览器插件，也不是可直接安装到 Codex/Claude 的 MCP 服务。打开演示不需要 API key，不需要充值。
+
+## 从你的任务开始
+
+| 你想做什么 | 从这里开始 |
+|---|---|
+| 先看实际效果，判断适不适合 | [图文导览](docs/showcase.md)，再启动3条内置示例 |
+| 想知道自己的资料怎样进入阅读器 | [完整离线例子](docs/first-reference.md)：已填JSON→生成1条阅读工作区 |
+| 有真实来源，准备采集和审核 | [完整手册](docs/advanced-guide.md)与[审查规则](collectors/REVIEW-WORKFLOW.md) |
+| 想报告问题或参与改进 | [贡献指南](CONTRIBUTING.md)与[能力路线](docs/ROADMAP.md) |
+
+图文导览及本轮20个仓库对标均有版本记录：[研究与采用依据](docs/benchmarks/20-repositories-v0.2.2.md)。
 
 ## 你会得到什么
 
@@ -59,6 +70,8 @@ python3 app/server.py --port 8791
 1. 看到 **3条合成文章**：参考合格、待补证、排除各1条。这是演示，不是下载附赠的真实文章库。
 2. 点击一篇文章，查看正文；展开审核详情，观察“作者自述”和“独立实测”的区别。
 3. 点“返回列表”，筛选“待补证”：应只剩1条，计入目标为0。
+
+想继续试数据如何进库？直接跑[已填好的离线签收例子](docs/first-reference.md)，无需联网或充值。
 
 完成这三步后，你已跑通本地阅读器。**网页本身不会自动开始抓取；下面的 CLI 才负责采集。**
 
@@ -133,7 +146,7 @@ DataX 属于**进阶付费路径**，不影响你先体验或使用普通公开�
 - **案例背景：** 项目私有研究库累计571条有效名录、201篇合格正文、18个已核公众号；其中201篇含102篇微信来源、99篇发布者原站。这些资料**不在公开下载包里**。
 - **成本：** 项目该采集阶段DataX实际花费$4.20；本地合成演示不调用DataX。模型token及费用不可归因，不给虚构数字。历史31份采集manifest也不是31轮全部成功测试。
 
-本次 `0.2.1-preview.1` **只改善说明、导航与结构图，不新增采集来源或软件功能**。更细的测试记录见[test-results](test-results/verification-summary.md)，文档模拟评审见[用户体验评审](docs/UX-REVIEW-v0.2.1.md)。
+本次 `0.2.2-preview.1` **增加20仓库对标、角色导航、图文导览、完整合成签收例子与贡献路线；运行代码、采集来源和费用行为未变**。更细的测试记录见[test-results](test-results/verification-summary.md)，文档模拟评审见[本版产出验收](docs/UX-REVIEW-v0.2.2.md)。
 
 ## 常见问题
 

@@ -1,6 +1,6 @@
 {
-  "manifest_version": "1.5",
-  "package_version": "0.2.1-preview.1",
+  "manifest_version": "1.6",
+  "package_version": "0.2.2-preview.1",
   "purpose": "Allowlist and provenance manifest for the local synthetic demo and portable public-source workflow preview.",
   "model": "NOT_EXPOSED",
   "included_files": [
@@ -11,8 +11,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "7e49dde7499149c30d6989f1fe0cf99dfa7db31cb83654229070d98bd5ae07f8",
-      "bytes": 2476
+      "sha256": "0f1e66319adeca560c2cb785b04f148ab20b1abd18d9ae3cf144ebe972cb67bd",
+      "bytes": 3005
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "f509aca04e621c919237ebed588aaa05293dd37f5ed5372cb10a8253d2d7f123",
+      "bytes": 1784
     },
     {
       "path": "LICENSE",
@@ -26,12 +31,12 @@
     },
     {
       "path": "README.md",
-      "sha256": "128cfabe083fa41eaf8e55f2f63f83c75f0b56c1367085bd9619edf1c7899694",
-      "bytes": 9761
+      "sha256": "61326bf83f644903ceda03a012c12622ccf83447f185b8c79f631e311f64a4db",
+      "bytes": 10680
     },
     {
       "path": "VERSION",
-      "sha256": "7627765932953550e29ea7295016f88bc0db3e31dad51b7de98d3b9d4d85d63c",
+      "sha256": "cab812d7b74014d5b954e979bf7dcb1f009c51cc2162cdd64adce9f1da12cd0a",
       "bytes": 16
     },
     {
@@ -175,9 +180,19 @@
       "bytes": 66
     },
     {
+      "path": "docs/ROADMAP.md",
+      "sha256": "184c787360b95c46a1bb4ab0d260e8932dc508218345b61f69c639a3d6012d3a",
+      "bytes": 1149
+    },
+    {
       "path": "docs/UX-REVIEW-v0.2.1.md",
       "sha256": "1c56c86b99aafaeaadda76951ead0036ed0ed710a08d998cd76f2faa2f7edf08",
       "bytes": 2125
+    },
+    {
+      "path": "docs/UX-REVIEW-v0.2.2.md",
+      "sha256": "2b709c239e00139617940001761b625eef2db16237d626b5bbe29c88bb67209a",
+      "bytes": 1920
     },
     {
       "path": "docs/advanced-guide.md",
@@ -198,6 +213,31 @@
       "path": "docs/assets/workflow.svg",
       "sha256": "3e3fc4eda7fd0d728e9c717b0c6268d293c9788a2680a8bbb4ae2a9b38cc23ff",
       "bytes": 2223
+    },
+    {
+      "path": "docs/benchmarks/20-repositories-v0.2.2.md",
+      "sha256": "2a066eb40c702d3fe56d5746723eb3abdaebd44ab290e1ce28834205bc174c9e",
+      "bytes": 19239
+    },
+    {
+      "path": "docs/benchmarks/sources-v0.2.2.json",
+      "sha256": "be36b0514fbb9f0c65093e8ec8a7993c9cf44c5d2e0ab0b5a71d5aa63c663236",
+      "bytes": 16368
+    },
+    {
+      "path": "docs/first-reference.md",
+      "sha256": "98c7d5fcfb9e66ddb37e8a6d98fdb6c0f9dc764184625fcb5902c323b71b1cf7",
+      "bytes": 2344
+    },
+    {
+      "path": "docs/showcase.md",
+      "sha256": "a3822e3e37feea40f7e217cab57ec931bac1d78dc41a7c91a8c7529d8ff685ba",
+      "bytes": 2972
+    },
+    {
+      "path": "examples/synthetic-acceptance.json",
+      "sha256": "bcec9748bead2a6beb4e5055c917bd066e53f9c1f3a31885817b4f1254a688d8",
+      "bytes": 1687
     },
     {
       "path": "test-results/cli-help.log",

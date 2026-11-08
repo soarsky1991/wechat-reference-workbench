@@ -1,0 +1,36 @@
+{
+  "schema": "public-workbench-signed-acceptance/v1",
+  "signoff": {
+    "status": "SIGNED",
+    "reviewer": "SYNTHETIC_FIXTURE_NOT_A_REAL_REVIEWER",
+    "signed_at": "2026-11-08T20:00:00+08:00",
+    "as_of": "2026-11-08T20:00:00+08:00",
+    "record_ids": [
+      "synthetic-walkthrough-001"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "synthetic-walkthrough-001",
+      "account_name": "合成示例作者",
+      "account_id": "synthetic-only",
+      "title": "【合成示例】把会议讨论变成可执行事项",
+      "source_url": "https://example.com/synthetic-walkthrough",
+      "published_at": "",
+      "Q": 4.0,
+      "reference_status": "PASS",
+      "counts_toward_target": true,
+      "claim_verification": "SOURCE_REPORTED",
+      "reason": "仅用于演示签收结构与本地显示，不是对真实文章的质量决定。",
+      "reason_codes": [
+        "SYNTHETIC_DEMO_ONLY"
+      ],
+      "evidence_refs": [
+        "examples/synthetic-acceptance.json"
+      ],
+      "purpose": "离线练习结构化签收→本地阅读",
+      "body_text": "【合成演示，不是真实文章或审查结果】\n\n任务：把会议讨论整理成可执行事项。\n\n填写后的例子：\n事项：更新产品介绍页。负责人：演示成员甲。期限：周五17:00。验收：页面包含三步启动说明与一张实景图。\n\n如果负责人或期限未明确，就保留待确认，不自动把讨论句变成任务。\n\n这个样例展示“有输入、有责任、有验收”的整理方法；没有声称已在任何团队实测效果。",
+      "body_sha256": "cdd3294d7fa625639532bb422948869617761a8b91fe1165ea8e439878e083f7"
+    }
+  ]
+}
