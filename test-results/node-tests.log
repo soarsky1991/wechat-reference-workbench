@@ -1,0 +1,12 @@
+✔ review status remains distinct from technical status in the list (1.422167ms)
+✔ untrusted research notes, titles and IDs are escaped instead of active HTML (0.478ms)
+✔ reference decisions show separately, retain zero Q and escape reasons (0.947167ms)
+✔ media notice distinguishes uncollected originals and escapes captions and source URLs (0.524917ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 88.185583

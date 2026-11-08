@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#16140f">
+  <title>数字生活参考工作台 · 测试演示</title>
+  <link rel="stylesheet" href="/app.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">阅</span><div><strong>参考工作台</strong><small>测试演示 · 本地只读</small></div></div>
+      <label class="search-label" for="search">搜索文章</label>
+      <input id="search" class="search" type="search" placeholder="标题、公众号或主题" autocomplete="off">
+      <div class="nav-title">主题分类</div>
+      <nav id="topics" class="topics" aria-label="主题选区"></nav>
+      <div class="sidebar-bottom"><span class="status-dot"></span><span>不联网采集 · 不含真实文章</span></div>
+    </aside>
+    <main class="main-pane">
+      <header class="topbar">
+        <div><div class="eyebrow">READ-ONLY REFERENCE WORKBENCH</div><h1>数字生活与办公工具</h1></div>
+        <div class="topbar-actions"><nav id="dataset-switch" class="dataset-switch" aria-label="数据集"><button type="button" data-dataset="digital-life" class="active" aria-pressed="true">合成演示名录</button><button type="button" data-dataset="qualified" aria-pressed="false">兼容视图（空）</button></nav><div class="topbar-meta"><span id="result-count">读取中…</span><span class="readonly" id="runtime-status">本地合成演示</span><span class="readonly">只读模式</span></div></div>
+      </header>
+      <section class="filters" aria-label="筛选">
+        <label>公众号 <input id="account" type="search" placeholder="筛选账号"></label>
+        <label hidden>月份 <input id="month" type="month" aria-label="月份"></label>
+        <label id="window-filter">发布时间 <select id="time-window"><option value="">全部时间</option><option>近1个月</option><option>1-3个月</option><option>3-6个月</option><option>6-12个月</option><option>1年以上</option><option>日期缺失</option></select></label>
+        <label>正文 <select id="body-filter"><option value="">全部</option><option value="available">已有正文</option><option value="missing">暂无正文</option></select></label>
+        <label>采集状态 <select id="collection-status"><option value="">全部</option><option value="accepted">技术通过</option><option value="pending">待采集</option><option value="pending_review">待复核</option><option value="failed">失败待处理</option><option value="unknown">中断未知</option></select></label>
+        <label>参考资格 <select id="reference-filter"><option value="">全部</option><option value="PASS">参考合格</option><option value="NEEDS_EVIDENCE">待补证</option><option value="EXCLUDE">排除</option><option value="UNAPPROVED">未独立批准</option></select></label>
+        <label>主张核验 <select id="claim-filter"><option value="">全部</option><option value="SOURCE_REPORTED">作者自述</option><option value="INDEPENDENTLY_TESTED">独立实测</option><option value="NOT_APPLICABLE">不适用</option></select></label>
+        <button id="clear" class="clear-button" type="button">清除筛选</button>
+      </section>
+      <p id="reference-summary" role="status"></p>
+      <p id="batch-summary" role="status">正在读取批次…</p>
+      <section class="content-grid">
+        <div class="list-pane">
+          <div id="list" class="article-list" aria-live="polite"></div>
+        </div>
+        <article id="reader" class="reader-pane" aria-live="polite" tabindex="0" aria-label="文章正文阅读区">
+          <div class="empty-reader"><div class="empty-icon">演</div><h2>选择一条演示记录</h2><p>正文是合成测试内容，不对应真实文章、账号或来源。</p></div>
+        </article>
+      </section>
+      <footer class="footer"><span>本演示只读取包内合成数据，不启动采集，也不会访问文章链接。</span><span>所有记录均为虚构测试内容</span></footer>
+    </main>
+  </div>
+</body>
+</html>

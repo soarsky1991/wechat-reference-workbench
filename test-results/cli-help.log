@@ -1,0 +1,18 @@
+usage: cli.py [-h]
+              {discover,capture,render-signed,datax-once,datax-check-receipt,prepare-docs} ...
+
+Public Workbench local workflow CLI. No command modifies the production
+library.
+
+positional arguments:
+  {discover,capture,render-signed,datax-once,datax-check-receipt,prepare-docs}
+    discover            从用户URL建候选，或一次读取Appinn/SSPai RSS
+    capture             顺序获取唯一新URL；首错持久STOP、零重试
+    render-signed       从显式SIGNED结构化签收生成只读viewer工作区
+    datax-once          满足当前官方证据与单次费用门禁后最多发一个DataX GET
+    datax-check-receipt
+                        只查原请求回执一次，不重发原请求
+    prepare-docs        一次读取三份固定官方文档并与已审核原文SHA比较；不查账户、不收费
+
+options:
+  -h, --help            show this help message and exit

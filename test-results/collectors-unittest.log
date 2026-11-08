@@ -1,0 +1,21 @@
+test_clean_package_copy_prepares_user_cache_and_blocks_changed_or_stale_contract (test_datax_fallback.DataXFallbackTests.test_clean_package_copy_prepares_user_cache_and_blocks_changed_or_stale_contract) ... ok
+test_empty_list_is_still_capped_at_the_documented_paid_price (test_datax_fallback.DataXFallbackTests.test_empty_list_is_still_capped_at_the_documented_paid_price) ... ok
+test_invalid_or_over_cap_success_billing_preserves_receipt_and_stops_without_staging (test_datax_fallback.DataXFallbackTests.test_invalid_or_over_cap_success_billing_preserves_receipt_and_stops_without_staging) ... ok
+test_missing_confirmation_and_bad_step_are_local_blocks (test_datax_fallback.DataXFallbackTests.test_missing_confirmation_and_bad_step_are_local_blocks) ... ok
+test_one_paid_get_passes_all_gates_and_cannot_repeat (test_datax_fallback.DataXFallbackTests.test_one_paid_get_passes_all_gates_and_cannot_repeat) ... ok
+test_stale_balance_docs_or_price_mismatch_blocks_before_transport (test_datax_fallback.DataXFallbackTests.test_stale_balance_docs_or_price_mismatch_blocks_before_transport) ... ok
+test_success_billing_accepts_only_amounts_at_or_below_authorized_cap (test_datax_fallback.DataXFallbackTests.test_success_billing_accepts_only_amounts_at_or_below_authorized_cap) ... ok
+test_unknown_charge_stops_and_only_original_receipt_lookup_is_allowed_once (test_datax_fallback.DataXFallbackTests.test_unknown_charge_stops_and_only_original_receipt_lookup_is_allowed_once) ... ok
+test_invalid_encoding_fails_closed (test_subscription_gate.GateTests.test_invalid_encoding_fails_closed) ... ok
+test_lock_after_body (test_subscription_gate.GateTests.test_lock_after_body) ... ok
+test_subscribe_navigation_is_not_a_lock (test_subscription_gate.GateTests.test_subscribe_navigation_is_not_a_lock) ... ok
+test_first_failure_stops_batch_and_cross_run_never_retries_previous_success_or_failure (test_workflow_integration.WorkflowIntegrationTests.test_first_failure_stops_batch_and_cross_run_never_retries_previous_success_or_failure) ... ok
+test_rss_to_pending_review_then_explicit_signed_viewer (test_workflow_integration.WorkflowIntegrationTests.test_rss_to_pending_review_then_explicit_signed_viewer) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.580s
+
+OK
+127.0.0.1 - "GET /api/digital-life-articles HTTP/1.1" 200 -
+127.0.0.1 - "GET /api/digital-life-articles/signed-pass HTTP/1.1" 200 -
+127.0.0.1 - "GET /api/digital-life-articles/no-such-id HTTP/1.1" 404 -

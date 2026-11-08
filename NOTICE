@@ -1,0 +1,22 @@
+# NOTICE
+
+Project-authored code, original documentation and bundled synthetic demo assets are
+licensed under the root MIT LICENSE. The release owner confirmed authority to
+license these materials on 2026-11-08.
+
+OpenReader attribution and its complete original MIT license are retained in:
+- app/UPSTREAM.md
+- app/LICENSE.openreader
+
+Upstream: pengyaoc/openreader, commit
+570f68e068260cad088e1fe610dc35375794810a.
+The documented adaptation covers a reading-room layout influence and limited CSS
+visual tokens. It does not imply upstream endorsement; its copyright notice is
+preserved. The project-local collectors and backend are not attributed as an
+OpenReader backend migration.
+
+The project license does not grant rights to captured articles, source HTML,
+third-party images, screenshots, logos, provider documentation or services, or
+other separately licensed material. No real research corpus or private provider
+receipts are distributed. Public accessibility does not grant reproduction rights.
+Bundled demonstration screenshots show only project-authored synthetic fixtures.

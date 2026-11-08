@@ -1,0 +1,23 @@
+name: 参考库工作台 · 使用反馈
+description: 说明你的研究场景，以及最想改善的一步。
+title: "[参考库反馈] "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: 你在完成什么任务？
+      description: 例如整理办公工具资料、比较参考账号或研究一个具体选题。请勿填写私人账号数据。
+    validations:
+      required: true
+  - type: textarea
+    id: friction
+    attributes:
+      label: 哪一步最费力？希望看到什么结果？
+      description: 可以附公开例子，说明当前做法及理想结果。
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: 怎样判断改进有用？
+      description: 给出一个可观察的验收结果，方便维护者核对。

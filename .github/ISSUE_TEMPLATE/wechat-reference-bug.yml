@@ -1,0 +1,41 @@
+name: 参考库工作台 · 报告问题
+description: 提交可以复现的采集、审核或阅读界面问题。
+title: "[参考库问题] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请只提供脱敏复现信息。不要上传 API Key、Cookie、私人数据库、完整第三方文章或个人资料。
+        页面访问限制请保留错误类型；不要提供绕过登录、订阅锁或验证码的方法。
+  - type: input
+    id: version
+    attributes:
+      label: 版本或提交号
+      description: 填写 VERSION 或 Git 提交号，以及操作系统与 Python 版本。
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 出问题的环节
+      options:
+        - 安装与启动
+        - 文章名录与去重
+        - 正文获取与停止规则
+        - 质量审核与计数
+        - 本地阅读与图片
+        - 文档说明
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤、预期结果与实际结果
+      description: 使用最小公开或合成示例，说明从哪一步开始出现差异。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 脱敏错误或截图
+      description: 保留错误类别与时间，删除凭据、私人路径及无关个人信息。费用问题只提供脱敏回执。

@@ -1,0 +1,6 @@
+GET / -> 200; HTML document present
+GET /api/runtime-info -> 200; bundled synthetic demo; read_only=true
+GET /api/digital-life-articles -> 200; 3 records; PASS=1 NEEDS_EVIDENCE=1 EXCLUDE=1
+GET synthetic detail -> 200; body present (3 records)
+GET unknown ID -> 404
+SQLite mode=ro: integrity_check=ok; write rejected; DB SHA unchanged

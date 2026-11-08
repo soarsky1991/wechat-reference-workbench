@@ -1,0 +1,285 @@
+{
+  "manifest_version": "1.4",
+  "package_version": "0.2.0-preview.3",
+  "purpose": "Allowlist and provenance manifest for the local synthetic demo and portable public-source workflow preview.",
+  "model": "NOT_EXPOSED",
+  "included_files": [
+    {
+      "path": ".gitignore",
+      "sha256": "74756503e09b3fc51374117e07de92deeecf33c65cec1ff50e3142b75153ada6",
+      "bytes": 48
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "2f709f92b89be1ec4071d91c2df351f613adba86aaf06ad05a0e2d38dd4c0051",
+      "bytes": 2127
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "33c4d839a867bb0ae27d934d809232670b8f63db5f5bd24b8fa833b81340f106",
+      "bytes": 1080
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "cac19c2e58af6284c6e21f55ed9e60e1bea6e8439c8fa8c93476afde9f2e733e",
+      "bytes": 1082
+    },
+    {
+      "path": "README.md",
+      "sha256": "57c617911706d854d7007d76d7ff8b39c27eba15dd2b61abe7d911b93f0769c0",
+      "bytes": 18085
+    },
+    {
+      "path": "VERSION",
+      "sha256": "97a732cd1440811e4945995e59c6f424e151688ba0fffcd8f0b490e02b513c14",
+      "bytes": 16
+    },
+    {
+      "path": "app/LICENSE.openreader",
+      "sha256": "baa070bee4bf68491ba620369015d614b1fdae5138934f446d4993add0f21c6c",
+      "bytes": 1069
+    },
+    {
+      "path": "app/UPSTREAM.md",
+      "sha256": "fb33419a3734bd8fb32279523a066289e867277c28a2d90af7bc590aeec0b2b2",
+      "bytes": 993
+    },
+    {
+      "path": "app/server.py",
+      "sha256": "8054488bc13645d5fd739c876fa79929ba93896ce2ce293c45220e6121a95fdc",
+      "bytes": 33198
+    },
+    {
+      "path": "app/tests/test_collection_view.py",
+      "sha256": "7c5e4e6ad36d3f16946b7bc284d3e0f547e691f2b97ddd89c594dde686467409",
+      "bytes": 13328
+    },
+    {
+      "path": "app/tests/test_reader_display.cjs",
+      "sha256": "2d92d6dc6389b80cda3ec57859fb63c86e8b5a6315fc3675eb6ce2288178cfb6",
+      "bytes": 3050
+    },
+    {
+      "path": "app/tests/test_reference_view.py",
+      "sha256": "62fcdc62da202dfe4ec01a6b861d022a37f4426aa0822d5d9e139949d9a9e55a",
+      "bytes": 7119
+    },
+    {
+      "path": "app/tests/test_review_display.cjs",
+      "sha256": "ce3f2391dc9f3b548c1fe8bbeeedea344f5ef1cb8a90928f4aa332d0c061bb15",
+      "bytes": 4482
+    },
+    {
+      "path": "app/web/app.css",
+      "sha256": "2a211a0b212dfeb7724dda8a5c7692b97ce4f55c6aadfbc32a12dd4e6d304167",
+      "bytes": 11934
+    },
+    {
+      "path": "app/web/app.js",
+      "sha256": "1dde05648f0840cd39dd065a4250a80f84cb20cb0e08e1212a01bccffcf9a762",
+      "bytes": 16167
+    },
+    {
+      "path": "app/web/index.html",
+      "sha256": "c287229c6aa2d7155e23b18d4340502419b3980ad823dfd5d58da20a1df9e20b",
+      "bytes": 4238
+    },
+    {
+      "path": "collectors/DATAX-PREFLIGHT.md",
+      "sha256": "b8f77dd89c0390a573c859cb93220196952691742e21029d5d528d7ce79c7cd1",
+      "bytes": 4018
+    },
+    {
+      "path": "collectors/README.md",
+      "sha256": "cebb1abf087fbecdda2ba55b0c94ebb10d954c1614ef30558bc5baee09a37047",
+      "bytes": 1324
+    },
+    {
+      "path": "collectors/REVIEW-WORKFLOW.md",
+      "sha256": "5de0e52759af41f65fe9c0a459e738443d4491e8c732f882c5d61d56be93474c",
+      "bytes": 3472
+    },
+    {
+      "path": "collectors/__init__.py",
+      "sha256": "70acc4fec31d784ad49f985319cd1e8305f42919dea2247ee577c745cd07ddf3",
+      "bytes": 69
+    },
+    {
+      "path": "collectors/cli.py",
+      "sha256": "96e15973f2085144352fea49bdd17668831dab8c862ff444802fd9f12a78b027",
+      "bytes": 5810
+    },
+    {
+      "path": "collectors/datax_fallback.py",
+      "sha256": "24248e806eed486919afd447ed46408d544f835cdf4367660e5ac451e9418ea5",
+      "bytes": 50103
+    },
+    {
+      "path": "collectors/native_adapters.py",
+      "sha256": "7fb41131c35d49b1bb0e8b9acb14a0ab4be4e55b78d33d37807ada20e9a2e116",
+      "bytes": 24877
+    },
+    {
+      "path": "collectors/subscription_gate.py",
+      "sha256": "2c3f0aa4edc5fefcc08a6a67e638b0dfcabf76300e170c47f5e344b19d459e00",
+      "bytes": 5111
+    },
+    {
+      "path": "collectors/test_datax_fallback.py",
+      "sha256": "868e8d380d2a708522eb0d45cf843ced2b1a53261fb2b1366b88b6186d40a1ad",
+      "bytes": 24028
+    },
+    {
+      "path": "collectors/test_subscription_gate.py",
+      "sha256": "669a09f73750d8538a42fa1ed74e2a7d3e208a7363c3f64801823cf717d8af71",
+      "bytes": 1169
+    },
+    {
+      "path": "collectors/test_workflow_integration.py",
+      "sha256": "9e6875f26c39612912c17861db72a28c5b6cc8ce89e081b1092970e85e490c48",
+      "bytes": 10570
+    },
+    {
+      "path": "collectors/workflow.py",
+      "sha256": "ef730593e9331f09fe01df07846b79715d431defd524a35b1975fb905a455931",
+      "bytes": 32420
+    },
+    {
+      "path": "demo-workspace/approved.json",
+      "sha256": "11f8959d0d24ba22d756b059ee6b9acb054188751f70ed6835e3347ee3000f4a",
+      "bytes": 1977
+    },
+    {
+      "path": "demo-workspace/digital_life_catalog.csv",
+      "sha256": "bd4c880fb00f971a51036c3eebefc6cd105fe8117f53740243a2360478ed672f",
+      "bytes": 1290
+    },
+    {
+      "path": "demo-workspace/ledger.csv",
+      "sha256": "d2b8d46baa8e9eb4499d342e5ea5d520261726560971978aea75af393e819abf",
+      "bytes": 124
+    },
+    {
+      "path": "demo-workspace/media/manifest.json",
+      "sha256": "88deee06ec09187a9dd15579a6d42e864561fa6467ba669dbedf264185a6a941",
+      "bytes": 41
+    },
+    {
+      "path": "demo-workspace/reference.sqlite3",
+      "sha256": "431c0e1da0615a7e6486bf4e149e336d40e8e2c87b8db9f9279e4c25836d5216",
+      "bytes": 20480
+    },
+    {
+      "path": "demo-workspace/research-notes.json",
+      "sha256": "a5452564c5667096275387a536bb9ccd10bb804117d9ca8a430b4ec1dc626fdf",
+      "bytes": 66
+    },
+    {
+      "path": "docs/assets/reader-demo.png",
+      "sha256": "ea99fc9da1170061bd1dcc7d25ec53dfda97176b99c25d3db3d466c706c4fe8b",
+      "bytes": 35367
+    },
+    {
+      "path": "docs/assets/reader-narrow.png",
+      "sha256": "3c430a55eae06bdac9e3190041652887e599a5a733fd4959e99bac913a362fb1",
+      "bytes": 29195
+    },
+    {
+      "path": "test-results/cli-help.log",
+      "sha256": "38033a28d5e40dd2c4627ed5b2096771c261d5188c54c6a4e6a5405ae99fc8df",
+      "bytes": 918
+    },
+    {
+      "path": "test-results/collectors-unittest.log",
+      "sha256": "027b9bf0f79d337a755a57d81d5b0de0e25d07b3477770e2830cb48b089be5f0",
+      "bytes": 2500
+    },
+    {
+      "path": "test-results/datax-billing-guard-test.log",
+      "sha256": "bd973ce818fd9322767fd20f8a1bf2674e996998efa50cd9c76dc0fad973594b",
+      "bytes": 524
+    },
+    {
+      "path": "test-results/http-smoke.log",
+      "sha256": "2182e72247a4c49cb3efb395190c5b4eb7e169c7c7ad2e2b9ae637c29ec8c4c7",
+      "bytes": 334
+    },
+    {
+      "path": "test-results/node-tests.log",
+      "sha256": "fca8e9b9c7314b1f30c31ccaf9336b99f333f138430854ea7f2280ab17886bd1",
+      "bytes": 476
+    },
+    {
+      "path": "test-results/parser-selfcheck.log",
+      "sha256": "280cb4f6e347999a6cbd3161eb0b0bf7b88dba9e8529a4d4d1ea6195d336de26",
+      "bytes": 102
+    },
+    {
+      "path": "test-results/python-unittest.log",
+      "sha256": "49e195e76b48ac12deeea8273fc6c7e4b05f8772f56db49caefa7bb18f78f786",
+      "bytes": 387
+    },
+    {
+      "path": "test-results/verification-summary.md",
+      "sha256": "c70b7fb64a16f13fba67e257fdf58276856dac8e44fbb2b0a98d97ea6e9714ac",
+      "bytes": 4885
+    },
+    {
+      "path": "test-results/viewer-unittest.log",
+      "sha256": "3cdb59836bddfbc0734ea6aa854eae5853508d34de118e9d33cc3d8fe949cffb",
+      "bytes": 268
+    }
+  ],
+  "repository_sidecar_allowlist": [
+    {
+      "repository_relative_path": ".github/ISSUE_TEMPLATE/wechat-reference-bug.yml",
+      "sha256": "5f5677963e20f994e2c7a16fe1d8df51a8268bad67bc2a77c89f2983584c617b",
+      "bytes": 1437,
+      "included_in_package": false
+    },
+    {
+      "repository_relative_path": ".github/ISSUE_TEMPLATE/wechat-reference-idea.yml",
+      "sha256": "597f0053d8ba12261884bb14697ce8223abac50881bba881dcc02611362426f6",
+      "bytes": 812,
+      "included_in_package": false
+    }
+  ],
+  "synthetic_demo": {
+    "records": 3,
+    "statuses": {
+      "PASS": 1,
+      "NEEDS_EVIDENCE": 1,
+      "EXCLUDE": 1
+    },
+    "real_articles": 0,
+    "real_accounts": 0,
+    "images": 0,
+    "credentials": 0
+  },
+  "provenance": {
+    "application": "Adapted from the project-local visualization app; production data roots replaced with a bundled synthetic demo or an explicitly selected local workspace.",
+    "collectors": "Portable Appinn/SSPai public-source workflow and a separately gated DataXAPI fallback; offline mock-tested only, no live API/account/run invocation in this repair.",
+    "upstream_attribution": "See app/UPSTREAM.md and app/LICENSE.openreader; preserve original OpenReader notice and documented visual-token scope.",
+    "project_authored_license": "MIT_CONFIRMED_BY_RELEASE_OWNER_2026-11-08"
+  },
+  "excluded_from_package": [
+    "production CSV and SQLite databases",
+    "approved production decisions",
+    "real article bodies and media",
+    "request receipts and collection histories",
+    "credentials and private account material",
+    "internal release-preparation files and full DataX document archives",
+    "internal account/balance/run readbacks"
+  ],
+  "workspace_defaults": {
+    "viewer": "bundled demo-workspace",
+    "datax_docs": "user-selected local cache generated by collectors/cli.py prepare-docs; no private archive path or static snapshot file dependency"
+  },
+  "release_state": {
+    "published": false,
+    "browser_ui_acceptance": "SAMPLED_READING_PATH_VERIFIED_IN_REAL_BROWSER",
+    "clean_demo_screenshot": "docs/assets/reader-demo.png",
+    "rights_owner_confirmation": "CONFIRMED_2026-11-08"
+  },
+  "self_sha256": "NOT_INCLUDED_SELF_HASH"
+}

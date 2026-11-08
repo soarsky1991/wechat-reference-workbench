@@ -1,0 +1,9 @@
+Offline Python test suites, run for package preview 0.2.0-preview.2
+
+collectors: python3 -m unittest discover -s collectors -p 'test_*.py' -v
+Ran 11 tests; all 11 passed.
+
+viewer: python3 -m unittest discover -s app/tests -p 'test_*.py' -v
+Ran 16 tests; all 16 passed.
+
+These are two separate suites, not a broader project-wide coverage claim. No network or paid API requests were made.

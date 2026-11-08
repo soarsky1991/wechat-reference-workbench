@@ -1,0 +1,7 @@
+test_success_billing_accepts_only_amounts_at_or_below_authorized_cap (collectors.test_datax_fallback.DataXFallbackTests.test_success_billing_accepts_only_amounts_at_or_below_authorized_cap) ... ok
+test_invalid_or_over_cap_success_billing_preserves_receipt_and_stops_without_staging (collectors.test_datax_fallback.DataXFallbackTests.test_invalid_or_over_cap_success_billing_preserves_receipt_and_stops_without_staging) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.026s
+
+OK

@@ -1,0 +1,54 @@
+{
+  "schema": "synthetic-demo-approved/v1",
+  "dataset_notice": "TEST DATA ONLY — all records and text are synthetic; no real accounts or articles.",
+  "records": [
+    {
+      "record_id": "demo-pass-001",
+      "body_hash": "1f9e910cb3f530a79904a0e3cce678aefad294e6b50320b7730c12794540e311",
+      "reference_status": "PASS",
+      "Q": 4.0,
+      "reason_codes": [
+        "SYNTHETIC_DEMO"
+      ],
+      "reason": "合成演示：用于展示独立参考状态。该内容不对应真实文章或事实来源。",
+      "purpose": "仅演示列表、正文、状态和计数的界面行为。",
+      "claim_verification": "SOURCE_REPORTED",
+      "counts_toward_target": true,
+      "evidence_refs": [
+        "demo-fixture#demo-pass-001"
+      ]
+    },
+    {
+      "record_id": "demo-needs-002",
+      "body_hash": "d17c292ab0950b42f3b42bfaf8f2309c4937377f7c7f22a969fc58591b330911",
+      "reference_status": "NEEDS_EVIDENCE",
+      "Q": 3.0,
+      "reason_codes": [
+        "SYNTHETIC_DEMO"
+      ],
+      "reason": "合成演示：用于展示独立参考状态。该内容不对应真实文章或事实来源。",
+      "purpose": "仅演示列表、正文、状态和计数的界面行为。",
+      "claim_verification": "SOURCE_REPORTED",
+      "counts_toward_target": false,
+      "evidence_refs": [
+        "demo-fixture#demo-needs-002"
+      ]
+    },
+    {
+      "record_id": "demo-exclude-003",
+      "body_hash": "765678f27633f406c2d81a74edce8e18dedcda87712599939860c9b6909b1d25",
+      "reference_status": "EXCLUDE",
+      "Q": 1.5,
+      "reason_codes": [
+        "SYNTHETIC_DEMO"
+      ],
+      "reason": "合成演示：用于展示独立参考状态。该内容不对应真实文章或事实来源。",
+      "purpose": "仅演示列表、正文、状态和计数的界面行为。",
+      "claim_verification": "SOURCE_REPORTED",
+      "counts_toward_target": false,
+      "evidence_refs": [
+        "demo-fixture#demo-exclude-003"
+      ]
+    }
+  ]
+}
