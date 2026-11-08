@@ -1,3 +1,7 @@
+# 0.2.1-preview.1 — 2026-11-08
+
+Documentation-only release: rewrite README around first-time users; add module/data-flow diagram, clone/download instructions, guided three-record demo, FAQ and progressive links. Preserve previous technical detail in docs/advanced-guide.md. Runtime, collection support, data, fees and API behavior are unchanged.
+
 # 变更记录
 
 ## 0.2.0-preview.3

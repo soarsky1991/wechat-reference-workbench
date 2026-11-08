@@ -1,6 +1,6 @@
 {
-  "manifest_version": "1.4",
-  "package_version": "0.2.0-preview.3",
+  "manifest_version": "1.5",
+  "package_version": "0.2.1-preview.1",
   "purpose": "Allowlist and provenance manifest for the local synthetic demo and portable public-source workflow preview.",
   "model": "NOT_EXPOSED",
   "included_files": [
@@ -11,8 +11,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "2f709f92b89be1ec4071d91c2df351f613adba86aaf06ad05a0e2d38dd4c0051",
-      "bytes": 2127
+      "sha256": "7e49dde7499149c30d6989f1fe0cf99dfa7db31cb83654229070d98bd5ae07f8",
+      "bytes": 2476
     },
     {
       "path": "LICENSE",
@@ -26,12 +26,12 @@
     },
     {
       "path": "README.md",
-      "sha256": "57c617911706d854d7007d76d7ff8b39c27eba15dd2b61abe7d911b93f0769c0",
-      "bytes": 18085
+      "sha256": "128cfabe083fa41eaf8e55f2f63f83c75f0b56c1367085bd9619edf1c7899694",
+      "bytes": 9761
     },
     {
       "path": "VERSION",
-      "sha256": "97a732cd1440811e4945995e59c6f424e151688ba0fffcd8f0b490e02b513c14",
+      "sha256": "7627765932953550e29ea7295016f88bc0db3e31dad51b7de98d3b9d4d85d63c",
       "bytes": 16
     },
     {
@@ -175,6 +175,16 @@
       "bytes": 66
     },
     {
+      "path": "docs/UX-REVIEW-v0.2.1.md",
+      "sha256": "4f0881bb8ff659515fd680ad024e116ec34f8e04eca0c4969e86e0b22d73cdb9",
+      "bytes": 1397
+    },
+    {
+      "path": "docs/advanced-guide.md",
+      "sha256": "b9c47e850535fb631a42cf15e8284ef13266d168621a10e6f48272ae78a1f476",
+      "bytes": 18251
+    },
+    {
       "path": "docs/assets/reader-demo.png",
       "sha256": "ea99fc9da1170061bd1dcc7d25ec53dfda97176b99c25d3db3d466c706c4fe8b",
       "bytes": 35367
@@ -183,6 +193,11 @@
       "path": "docs/assets/reader-narrow.png",
       "sha256": "3c430a55eae06bdac9e3190041652887e599a5a733fd4959e99bac913a362fb1",
       "bytes": 29195
+    },
+    {
+      "path": "docs/assets/workflow.svg",
+      "sha256": "3e3fc4eda7fd0d728e9c717b0c6268d293c9788a2680a8bbb4ae2a9b38cc23ff",
+      "bytes": 2223
     },
     {
       "path": "test-results/cli-help.log",
